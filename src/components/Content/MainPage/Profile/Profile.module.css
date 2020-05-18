@@ -1,0 +1,19 @@
+.Content__Profile {
+    grid-area: Content__Profile;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr 5fr;
+    grid-template-rows: 0.4fr 1fr;
+    grid-template-areas: ". . . ." ". Content__Avatar Content__Name .";
+    margin-bottom: 50px;
+}
+.Content__Avatar {
+    grid-area: Content__Avatar;
+    align-items: center;
+    height: 100px;
+    border-radius: 50%;
+}
+.Content__Name {
+    grid-area: Content__Name;
+    font-weight: bold;
+    color: rgba(0,0,0,0.81);
+}

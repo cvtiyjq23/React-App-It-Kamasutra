@@ -1,0 +1,33 @@
+.Header {
+    grid-area: Header;
+    min-height: 70px;
+    max-height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas: "Header__logo . Header__LogOut" ;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+
+}
+.Header__logo {
+    grid-area: Header__logo;
+    justify-self: center;
+}
+.Header__ImgLogo {
+    height: 50px;
+    width: 50px;
+}
+.Header__LogOut {
+    grid-area: Header__LogOut;
+    justify-self: center;
+}
+.Header__LogOutButton {
+    text-decoration: none;
+    color: rgba(0,0,0,0.81);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #939ba3;
+
+}

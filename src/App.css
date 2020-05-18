@@ -1,0 +1,29 @@
+.body{
+  font-family: 'Oswald', sans-serif;
+}
+.Wrapper{
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  display: grid;
+  grid-template-columns: 0.3fr 1.5fr 6fr 0.3fr;
+  grid-template-rows: 1fr 10fr 1fr ;
+  grid-template-areas: ". Header Header ." ". NavBar Content ." ". Footer Footer .";
+  grid-gap: 35px;
+  background-color: #eaeaea;
+  height: 100vh;
+
+}
+
+.Content {
+  grid-area: Content;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "Content__Profile" "Content__Posts";
+  grid-gap: 15px;
+  align-items: start;
+  background-color: rgba(255, 255, 255, 0.84);
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+
+
+}

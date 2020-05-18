@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+.body{
+    font-family: 'Oswald', sans-serif;
+}
+.Wrapper{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 6fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". Header Header ." ". NavBar Content .";
+    grid-gap: 10px;
+}
+.Header {
+    grid-area: Header;
+    min-height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas: "Header__logo . Header__LogOut" ;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.Header__logo {
+    grid-area: Header__logo;
+    justify-self: center;
+}
+.Header__ImgLogo {
+    height: 50px;
+    width: 50px;
+}
+.Header__LogOut {
+    grid-area: Header__LogOut;
+    justify-self: center;
+}
+.Header__LogOutButton {
+    text-decoration: none;
+    color: rgba(0,0,0,0.81);
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.NavBar {
+    grid-area: NavBar;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.NavBar__Items {
+
+}
+.NavBar__Item {
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.NavBar__ItemLink {
+    font-size: 17px;
+    color: rgba(0,0,0,0.81);
+}
+.Content {
+    grid-area: Content;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "Content__Profile" "Content__Posts";
+    grid-gap: 15px;
+    align-items: start;
+}
+.Content__Profile {
+    grid-area: Content__Profile;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 5fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-areas: ". . . ." ". Content__Avatar Content__Name .";
+}
+.Content__Avatar {
+    grid-area: Content__Avatar;
+    align-items: center;
+    height: 100px;
+    border-radius: 50%;
+}
+.Content__Name {
+    grid-area: Content__Name;
+    font-weight: bold;
+    color: rgba(0,0,0,0.81);
+}
+
+
+.Content__Post {
+    margin-top: 10px;
+
+    grid-area: Content__Post;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 5fr 0.1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: ". . . . ." ". Content__PostImgAvatar Content__PostName Content__PostText ." ". . . . ." ;
+}
+.Content__PostImgAvatar {
+    height: 100px;
+    border-radius: 50%;
+    grid-area: Content__PostImgAvatar;
+}
+.Content__PostName{
+    grid-area: Content__PostName;
+    font-weight: bold;
+    color: rgba(0,0,0,0.81);
+}
+.Content__PostText {
+    grid-area: Content__PostText;
+    color: rgba(0,0,0,0.81);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.circle{
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+}
+.circle_smal{
+    left: -40px;
+    top: -40px;
+    width: 150px;
+    height: 150px;
+    z-index: 0;
+}
+
+.circle_big{
+    right: -50px;
+    top: -100px;
+    width: 700px;
+    height: 700px;
+    z-index: 0;
+}
+
+.Wrapper{
+
+}
+
+.Footer {
+    position: relative;
+display: grid;
+    grid-template-columns: 1.5fr 5fr 2fr;
+    grid-template-areas: "Header_TextLogo HeaderNavbar HeaderContacts" ". HeaderText .";
+    grid-template-rows: 2fr 10fr;
+    min-height: 600px;
+    align-items: center;
+    grid-column-gap: 15px;
+    background-color: #fff9e6 ;
+
+}
+.Header_TextLogo {
+    position: relative;
+    grid-area: Header_TextLogo;
+    justify-self: center;
+}
+.TextLogo_logo {
+font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.HeaderNavbar {
+    grid-area: HeaderNavbar;
+    position: relative;
+
+}
+.HeaderNavbar_link {
+margin-right: 15px;
+}
+.HeaderContacts {
+    grid-area: HeaderContacts;
+    position: relative;
+}
+.HeaderContacts_link {
+
+}
+.HeaderText {
+    grid-area: HeaderText;
+}
+.HeaderText_title {
+
+}
+.HeaderText_subtitle {
+
+}
+.HeaderTextBattons {
+
+}
+.button {
+
+}
+.link {
+
+}*/

@@ -1,0 +1,21 @@
+.DialogsPage {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 35px;
+}
+
+.DialogsPage__Dialogs {
+    padding: 35px;
+}
+
+.DialogsPage__DialogsItem {
+    padding: 5px;
+}
+
+.DialogsPage__Messages {
+    padding: 35px;
+}
+
+.DialogsPage__MessagesItem {
+    padding: 5px;
+}

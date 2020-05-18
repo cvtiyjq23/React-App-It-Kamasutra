@@ -1,0 +1,25 @@
+.Content__Post {
+    margin-top: 35px;
+    grid-area: Content__Post;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 5fr 0.1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: ". . . . ." ". Content__PostImgAvatar Content__PostName Content__PostText ." ". . . . ." ;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.Content__PostImgAvatar {
+    height: 100px;
+    border-radius: 50%;
+    grid-area: Content__PostImgAvatar;
+}
+.Content__PostName{
+    grid-area: Content__PostName;
+    font-weight: bold;
+    color: rgba(0,0,0,0.81);
+}
+.Content__PostText {
+    grid-area: Content__PostText;
+    color: rgba(0,0,0,0.81);
+}

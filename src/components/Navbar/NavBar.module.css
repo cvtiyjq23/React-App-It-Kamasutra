@@ -1,0 +1,24 @@
+.NavBar {
+    grid-area: NavBar;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    display: grid;
+
+}
+.NavBar__Items {
+margin-top: 20px;
+}
+.NavBar__Item {
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+
+}
+.NavBar__ItemLink {
+    font-size: 17px;
+    color: #939ba3;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+}
